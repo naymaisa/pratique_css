@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body>header {
+    background-color: lightpink;
+    padding: 16px 0;
+    color: indigo;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: indigo;
+    text-decoration: none;
+
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 90%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: lightpink;
+    color: rgb(237, 89, 36);
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+section h2 {
+    font-size: 28px;
+}
+
+h2 {
+    color: rgb(1, 77, 1);
+}
+
+#sports {
+    background-color: rgb(184, 214, 184);
+}
+
+#sports .articles article a {
+    background-color: rgb(44, 128, 44);
+    color: black;
+}
+
+#economy h2 {
+    color: rgb(112, 95, 1);
+}
+
+#economy .articles article a {
+    background-color: rgb(212, 188, 52);
+    color: black;
+}
+
+#economy {
+    background-color: rgb(211, 199, 128);
+}
+
+#dorama {
+    background-color: rgb(177, 144, 210);
+}
+
+#dorama h2 {
+    color: rgb(38, 1, 76);
+}
+
+#anime {
+    background-color: rgb(203, 141, 203);
+}
+
+#anime h2 {
+    color: rgb(96, 1, 96);
+}
+
+.creation-date {
+    color: #ccc;
+}
